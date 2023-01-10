@@ -1,4 +1,4 @@
-const libraryList = [];
+let libraryList = [];
 const submit = document.querySelector('#submit');
 const list = document.querySelector('#bookList');
 const bookTitle = document.querySelector('#inputTitle');
@@ -8,7 +8,7 @@ function Book(title, author) {
   this.title = title;
   this.author = author;
 }
-
+// adds book to library
 function addBookToLibrary() {
   if (bookTitle.value !== '' && bookAuthor.value !== '') {
     libraryList.push(new Book(bookTitle.value, bookAuthor.value));
@@ -16,7 +16,7 @@ function addBookToLibrary() {
     list.appendChild();
   }
 }
-
+// add display function to display books
 function displayBooks(book) {
   const row = document.createElement('tr');
   const createTitle = document.createElement('th');
