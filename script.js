@@ -42,6 +42,7 @@ submit.addEventListener('click', (e) => {
   bookAuthor.value = '';
 });
 
+// add the remove method
 list.addEventListener('click', (e) => {
   if (e.target.classList.contains('remove-btn')) {
     e.target.parentElement.remove();
@@ -50,3 +51,12 @@ list.addEventListener('click', (e) => {
     localStorage.setItem('libraryLists', JSON.stringify(libraryList));
   }
 });
+
+// store data in the local storage
+
+if (localStorage.getItem('libraryLists')) {
+  JSON.parse(localStorage.getItem('libraryLists')).forEach((book) => {
+    displayBooks(book);
+    libraryList.push(book);
+  });
+}
