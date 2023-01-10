@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link]()
+[Live Demo Link](https://yaredtekle022.github.io/awsome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ Example command:
 
 To clone this repo run this command
 
-git clone 
+git clone https://github.com/yaredtekle022/awsome-books
 
 <!--
 Example commands:
