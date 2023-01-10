@@ -1,4 +1,4 @@
-let libraryList = [];
+const libraryList = [];
 const submit = document.querySelector('#submit');
 const list = document.querySelector('#bookList');
 const bookTitle = document.querySelector('#inputTitle');
@@ -27,7 +27,6 @@ function displayBooks(book) {
   removeBtn.classList.add('remove-btn');
   removeBtn.type = 'submit';
   removeBtn.innerText = 'Remove';
-
   row.appendChild(createTitle);
   row.appendChild(createAuthor);
   row.appendChild(removeBtn);
@@ -42,19 +41,3 @@ submit.addEventListener('click', (e) => {
   bookTitle.value = '';
   bookAuthor.value = '';
 });
-
-list.addEventListener('click', (e) => {
-  if (e.target.classList.contains('remove-btn')) {
-    e.target.parentElement.remove();
-    libraryList = libraryList.filter(({ title }) => e.target.parentElement.firstChild.innerText
-    !== title);
-    localStorage.setItem('libraryLists', JSON.stringify(libraryList));
-  }
-});
-
-if (localStorage.getItem('libraryLists')) {
-  JSON.parse(localStorage.getItem('libraryLists')).forEach((book) => {
-    displayBooks(book);
-    libraryList.push(book);
-  });
-}
