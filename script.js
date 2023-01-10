@@ -41,3 +41,12 @@ submit.addEventListener('click', (e) => {
   bookTitle.value = '';
   bookAuthor.value = '';
 });
+
+list.addEventListener('click', (e) => {
+  if (e.target.classList.contains('remove-btn')) {
+    e.target.parentElement.remove();
+    libraryList = libraryList.filter(({ title }) => e.target.parentElement.firstChild.innerText
+    !== title);
+    localStorage.setItem('libraryLists', JSON.stringify(libraryList));
+  }
+});
