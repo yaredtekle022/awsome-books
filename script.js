@@ -27,7 +27,6 @@ class Store {
 
   static removeBook(author) {
     const books = Store.getBooks();
-
     books.forEach((book, index) => {
       if (book.author === author) {
         books.splice(index, 1);
@@ -42,7 +41,6 @@ class Store {
 class UI {
   static displayBooks() {
     const books = Store.getBooks();
-
     books.forEach((book) => UI.addBookToList(book));
   }
 
