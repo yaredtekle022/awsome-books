@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Finishing Mobile Version Portfolio] <a name="about-project"></a>
 
-> Awsome books
+> Awesome books
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -165,6 +165,12 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/YaredTekle22)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yared-tekle-5708ba22b)
 
+
+👤 **Author 2**
+
+- Github: [@githubhandle](https://github.com/cindykandie)
+- Twitter: [@twitterhandle](https://twitter.com/cindykandie)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cindykandie)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
