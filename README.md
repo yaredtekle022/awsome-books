@@ -159,25 +159,25 @@ Example:
 
 <!-- AUTHORS -->
 
-👤 **Author**
+👤 **Yared Tekler**
 
-- Github: [@githubhandle](https://github.com/yaredtekle022)
-- Twitter: [@twitterhandle](https://twitter.com/YaredTekle22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yared-tekle-5708ba22b)
+- Github: [@yaredtekle](https://github.com/yaredtekle022)
+- Twitter: [@yaredtekle](https://twitter.com/YaredTekle22)
+- LinkedIn: [@yaredtekle](https://www.linkedin.com/in/yared-tekle-5708ba22b)
 
 
-👤 **Author 2**
+👤 **Cindy Kandie**
 
-- Github: [@githubhandle](https://github.com/cindykandie)
-- Twitter: [@twitterhandle](https://twitter.com/cindykandie)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/cindykandie)
+- Github: [@cindykandie](https://github.com/cindykandie)
+- Twitter: [@cindykandie](https://twitter.com/cindykandie)
+- LinkedIn: [@cindykandie](https://www.linkedin.com/in/cindykandie)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[desktop version]**
+- [ ] **[Adding Navigation bar and to creat single page application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

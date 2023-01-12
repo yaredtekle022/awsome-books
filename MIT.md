@@ -1,4 +1,4 @@
-## Copyright 2023, [Elhama and Sammy]
+## Copyright 2023, [Yared and Cindy]
 
 ###### Please delete this line and the next one
 
