@@ -1,5 +1,5 @@
 let listSection = document.querySelector(".list-section")
-let addSection = document.querySelector(".add-section")
+let addSection = document.querySelector(".enter")
 let contactSection = document.querySelector(".contact-section")
 let listButton = document.querySelector(".list-button")
 let addButton = document.querySelector(".add-button")

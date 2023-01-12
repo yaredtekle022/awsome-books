@@ -10,7 +10,7 @@ import UI from './UI.js';
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 // event: add books
-document.querySelector('#enter').addEventListener('submit', (e) => {
+document.querySelector('.enter').addEventListener('submit', (e) => {
 // prevent defualt
   e.preventDefault();
 
