@@ -18,9 +18,7 @@ document.querySelector('#enter').addEventListener('submit', (e) => {
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   // validation
-  if (title === '' || author === '') {
-    alert('Please fill in all fields');
-  } else {
+  if (!(title === '') || !(author === '')) {
     // instatiate book
     const book = new Book(title, author);
     // Add book to UI
