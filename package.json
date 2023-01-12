@@ -1,24 +1,23 @@
 {
-  "name": "awsome-books",
+  "name": "awesome-books",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaredtekle022/awsome-books.git"
+    "url": "git+https://github.com/willy836/Awesome-Books.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yaredtekle022/awsome-books/issues"
+    "url": "https://github.com/willy836/Awesome-Books/issues"
   },
-  "homepage": "https://github.com/yaredtekle022/awsome-books#readme",
+  "homepage": "https://github.com/willy836/Awesome-Books#readme",
   "devDependencies": {
-    "@hint/connector-local": "^3.2.24",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
