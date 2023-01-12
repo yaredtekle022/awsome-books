@@ -5,8 +5,6 @@ header{
     border: 2px solid black;
     justify-content: space-between;
     align-items: center; 
-    
-
 }
 header ul{
     display: flex;
@@ -36,4 +34,21 @@ footer{
 }
 footer p{
     padding: 10px;
+}
+
+/* modal code */
+.list-section{
+    display: none;
+  }
+  .add-section{
+    display: flex;
+  }
+  .contact-section{
+    display: none;
+  }
+.modal-appear{
+    display: table;
+}
+.modal-disappear{
+    display: none;
 }
