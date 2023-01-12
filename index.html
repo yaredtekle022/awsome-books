@@ -14,14 +14,14 @@
     <header>
         <p class="logo">Awesome Books</p>
         <ul>
-            <li>List</li>
-            <li>Add</li>
-            <li>Contact</li>
+            <li class= "list-button">List</li>
+            <li class= "add-button">Add</li>
+            <li class= "contact-button">Contact</li>
         </ul>
     </header>
-    <div class="container">
-        <h1>Awesome Book</h1> <hr>
-        <table class="table">
+    <div class="container ">
+        <table class="table ">
+            <h1>Awesome Book</h1> <hr>
             <thead>
                 <tr>
                     <th>Title</th>
@@ -31,17 +31,16 @@
                 <thead> <br>
                 <tbody id="bookList"></tbody>
         </table> <br> <hr>
-        <form id="enter">
+        <form id="enter" class="add-section">
             <h1>Add books</h1>
-            <input type="text" id="title" placeholder="Title" required></br>
-            <input type="text" id="author" placeholder="Author" required></br>
+            <input name= "title" type="text" id="title" placeholder="Title" required></br>
+            <input name= "author" type="text" id="author" placeholder="Author" required></br>
             <div id=submit>
                 <button id="submit" type="submit">Submit</button>
-
             </div>
         
         </form>
-        <section class="contact">
+        <section class="contact contact-section">
             <h1>Contact information</h1>
             <p>Do you have any question</p>
             <br>
@@ -57,6 +56,7 @@
         </footer>
 
         <script type="module" src="script.js"></script>
+        <script src="modal.js"></script>
         
         
 </body>

@@ -22,7 +22,7 @@ header ul li{
 /* footer code */
 footer{
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     display: flex;
     padding: 0 20px;
     margin: 0 5px;
