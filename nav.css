@@ -1,8 +1,7 @@
 header{
     display: flex;
     padding: 0 20px;
-    border-left: none;
-    border-right: none;
+    margin: 0 5px;
     border: 2px solid black;
     justify-content: space-between;
     align-items: center; 
@@ -18,4 +17,23 @@ header ul li{
     border-left: 1px solid black;
     padding: 20px;
     margin: auto 10px;
+}
+
+/* footer code */
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0 20px;
+    margin: 0 5px;
+    border: 2px solid black;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    left: 0;
+    right: 0;
+
+}
+footer p{
+    padding: 10px;
 }
