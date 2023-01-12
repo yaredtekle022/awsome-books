@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    padding: 0 20px;
+    border-left: none;
+    border-right: none;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center; 
+    
+
+}
+header ul{
+    display: flex;
+
+}
+header ul li{
+    list-style-type: none;
+    border-left: 1px solid black;
+    padding: 20px;
+    margin: auto 10px;
+}
