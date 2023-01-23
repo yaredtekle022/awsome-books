@@ -7,12 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book list</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
+    <header>
+        <p class="logo">Awesome Books</p>
+        <ul>
+            <li >
+                <a class="list-button" href="#">List</a>
+            </li>
+            <li class=>
+                <a class="add-button" href="#">Add</a>
+            </li>
+            <li class=>
+                <a class="contact-button" href="#">Contact</a>
+            </li>
+        </ul>
+    </header>
     <div class="container">
-        <h1>Awesome Book</h1> <hr>
-        <table class="table">
+        <table class="table list-section">
+            <h1>Awesome Book</h1> <hr>
             <thead>
                 <tr>
                     <th>Title</th>
@@ -22,15 +37,33 @@
                 <thead> <br>
                 <tbody id="bookList"></tbody>
         </table> <br> <hr>
-        <form id="enter">
+
+        <form class="enter">
             <h1>Add books</h1>
-            <input type="text" id="title" placeholder="Title" required></br>
-            <input type="text" id="author" placeholder="Author" required></br>
+            <input name= "title" type="text" id="title" placeholder="Title" required></br>
+            <input name= "author" type="text" id="author" placeholder="Author" required></br>
             <div id=submit>
                 <button id="submit" type="submit">Submit</button>
             </div>
         </form>
+        
+        <section class="contact contact-section">
+            <h1>Contact information</h1>
+            <p>Do you have any question</p>
+            <br>
+            <ul>
+                <li>our email mail@mail.com</li>
+                <li>our phone number +2323232</li>
+                <li>our address street no addisaba et</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Copyright</p>
+        </footer>
+
         <script type="module" src="script.js"></script>
+        <script src="modal.js"></script>
         
         
 </body>
